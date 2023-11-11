@@ -41,14 +41,14 @@ border-radius: 20px;
     width: 100%;
     height: 100%;
     max-width: 1200px;
-    max-height: 1500px;
+    /* max-height: 1500px; */
     justify-content: center;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 400px 400px 400px;
     margin: auto;    
     background:beige !important;
     border-radius: 20px;
-    padding: 80px 500px;
+    /* padding: 80px 500px; */
     vertical-align: baseline;
     
     
@@ -102,3 +102,13 @@ div.resultadoConversao h2{
     font-weight: bold;
 }
 
+        
+@media (max-width: 1149px){
+    .cartas{
+        display: block;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+}
