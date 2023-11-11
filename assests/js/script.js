@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         console.log('quanti: '+quantidade)
 
-        var url = 'http://economia.awesomeapi.com.br/json/last/'+moedaOrigem+'-'+moedaDestino;
+        var url = 'https://economia.awesomeapi.com.br/json/last/'+moedaOrigem+'-'+moedaDestino;
 
         var busca = await fetch(url, {method: "GET"});
         var dados = await busca.json();
